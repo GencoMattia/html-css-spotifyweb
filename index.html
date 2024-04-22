@@ -111,101 +111,103 @@
             </ul>
         </nav>
 
-        <section class="recently-played wrap bg-main">
-            <h1>
-                Recently played
-            </h1>
-            <article class="track">
-                <img src="./img/metal_lifting.jpg" alt="metal img">
-                <h2>
-                    Heavy Metal
-                </h2>
-                <h3>
-                    Subtitle
-                </h3>
-            </article>
-            <article class="track">
-                <img src="./img/stranger.jpeg" alt="stranger thing img">
-                <h2>
-                    Stranger Things, Vol. 1{a Netflix Original Series Soundtrack}
-                </h2>
-                <h3>
-                    Kyle Dixon & Micheal Stein
-                </h3>
-            </article>
-            <article class="track">
-                <img src="./img/aquietplace.jpeg" alt="quite place img">
-                <h2>
-                    A quiet place
-                </h2>
-                <h3>
-                    Subtitle
-                </h3>
-            </article>
-            <article class="track">
-                <img src="./img/split.jpeg" alt="split img">
-                <h2>
-                    Split
-                </h2>
-                <h3>
-                    Subtitle
-                </h3>
-            </article>
-            <article class="track">
-                <img src="./img/cure.jpeg" alt="cure img">
-                <h2>
-                    A cure for wellness
-                </h2>
-                <h3>
-                    Subtitle
-                </h3>
-            </article>
-            <article class="track">
-                <img src="./img/sinister.jpeg" alt="">
-                <h2>
-                    Sinister
-                </h2>
-                <h3>
-                    Subtitle
-                </h3>
-            </article>
-        </section>
-
-        <section class="created-for-user wrap bg-main">
-            <h1>
-                Creato per John Boh
-            </h1>
-            <article class="track">
-                <img src="./img/radar.jpeg" alt="radar img">
-                <h2>
-                    Release Radar
-                </h2>
-            </article>
-            <article class="track">
-                <img src="./img/mixdaily.jpeg" alt="mix daily img">
-                <h2>
-                    Daily Mix 1
-                </h2>
-            </article>
-        </section>
-
-        <section class="popular-artists wrap bg-main">
-            <h1>
-                Artisti più popolari
-            </h1>
-            <article class="artist">
-                <img src="./img/youg.jpeg" alt="youg img">
-                <h2>
-                    Lana Del Rey
-                </h2>
-            </article>
-            <article class="artist">
-                <img src="./img/einaudi.jpeg" alt="einaudi img">
-                <h2>
-                    Einaudi
-                </h2>
-            </article>
-        </section>
+        <div class="articles-container bg-main">
+            <section class="recently-played wrap">
+                <h1>
+                    Recently played
+                </h1>
+                <article class="track">
+                    <img src="./img/metal_lifting.jpg" alt="metal img">
+                    <h2>
+                        Heavy Metal
+                    </h2>
+                    <h3>
+                        Subtitle
+                    </h3>
+                </article>
+                <article class="track">
+                    <img src="./img/stranger.jpeg" alt="stranger thing img">
+                    <h2>
+                        Stranger Things, Vol. 1{a Netflix Original Series Soundtrack}
+                    </h2>
+                    <h3>
+                        Kyle Dixon & Micheal Stein
+                    </h3>
+                </article>
+                <article class="track">
+                    <img src="./img/aquietplace.jpeg" alt="quite place img">
+                    <h2>
+                        A quiet place
+                    </h2>
+                    <h3>
+                        Subtitle
+                    </h3>
+                </article>
+                <article class="track">
+                    <img src="./img/split.jpeg" alt="split img">
+                    <h2>
+                        Split
+                    </h2>
+                    <h3>
+                        Subtitle
+                    </h3>
+                </article>
+                <article class="track">
+                    <img src="./img/cure.jpeg" alt="cure img">
+                    <h2>
+                        A cure for wellness
+                    </h2>
+                    <h3>
+                        Subtitle
+                    </h3>
+                </article>
+                <article class="track">
+                    <img src="./img/sinister.jpeg" alt="">
+                    <h2>
+                        Sinister
+                    </h2>
+                    <h3>
+                        Subtitle
+                    </h3>
+                </article>
+            </section>
+    
+            <section class="created-for-user wrap">
+                <h1>
+                    Creato per John Boh
+                </h1>
+                <article class="track">
+                    <img src="./img/radar.jpeg" alt="radar img">
+                    <h2>
+                        Release Radar
+                    </h2>
+                </article>
+                <article class="track">
+                    <img src="./img/mixdaily.jpeg" alt="mix daily img">
+                    <h2>
+                        Daily Mix 1
+                    </h2>
+                </article>
+            </section>
+    
+            <section class="popular-artists wrap">
+                <h1>
+                    Artisti più popolari
+                </h1>
+                <article class="artist">
+                    <img src="./img/youg.jpeg" alt="youg img">
+                    <h2>
+                        Lana Del Rey
+                    </h2>
+                </article>
+                <article class="artist">
+                    <img src="./img/einaudi.jpeg" alt="einaudi img">
+                    <h2>
+                        Einaudi
+                    </h2>
+                </article>
+            </section>
+        </div>
 
     </main>
 
@@ -232,12 +234,55 @@
                 </div>
         </section>
 
-        <section class="control-bar">
+        <section class="control-board flex-column centered">
+            <div class="control-bar">
+                <ul class="flex centered">
+                    <li>
+                        <i class="fa-solid fa-shuffle"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-backward-step"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-play"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-forward-step"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-arrow-rotate-right"></i>
+                    </li>
+                </ul>
+            </div>
+            <div class="progress flex centered">
+                <div class="progress-time">
+                    <p>
+                        0:25
+                    </p>
+                </div>
+                <div class="progress-bar">
 
+                </div>
+                <div class="total-time">
+                    <p>
+                        4:35
+                    </p>
+                </div>
+            </div>
         </section>
 
-        <section class="options">
-
+        <section class="options flex centered">
+            <ul class="flex centered">
+                <li>
+                    <i class="fa-solid fa-list-ul"></i>
+                </li>
+                <li>
+                    <i class="fa-solid fa-desktop"></i>
+                </li>
+                <li>
+                    <i class="fa-solid fa-volume-high"></i>
+                </li>
+            </ul>
         </section>
     </footer>
     
