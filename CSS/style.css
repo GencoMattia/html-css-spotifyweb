@@ -94,6 +94,7 @@ main {
 .track,
 .artist{
     width: calc((100% - 2rem) / 2);
+    text-align: center;
 }
 
 .track>img{
