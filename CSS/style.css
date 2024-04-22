@@ -29,8 +29,17 @@ ul{
     flex-wrap: wrap;
 }
 
+.centered{
+    justify-content: center;
+    align-items: center;
+}
+
 .font-white{
     color: white;
+}
+
+.bg-main{
+    background-color: #141922;
 }
 
 /* Header */
@@ -74,6 +83,12 @@ header{
     justify-content: flex-end;
     padding: 2rem .5rem;
 }
+
+.main-navigation li{
+    width: calc(100% /4);
+}
+
+
 
 .upgrade>button{
     background-color: #080b12;
