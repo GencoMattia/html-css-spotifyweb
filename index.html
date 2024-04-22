@@ -25,7 +25,7 @@
                 <div class="service-logo full-display">
                     <img src="./img/logo.svg" alt="logo con nome">
                 </div>
-                <div class="service-name collapsed">
+                <div class="service-logo collapsed">
                     <img src="./img/logo-small.svg" alt="logo senza scritta">
                 </div>
             </section>
@@ -51,13 +51,17 @@
                         La tua libreria
                     </li>
                 </ul>
-
             </nav>
 
-            <section class="playlist">
-
-                <button class="playlist-add"></button>
-                <label for="playlist-add"></label>
+            <section class="playlist flex-column">
+                <div class="new-playlist">
+                    <button class="playlist-add">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                    <label for="playlist-add">
+                        Crea Playlist
+                    </label>
+                </div>
                 <ul class="playlist-list">
                     <li>Nome Playlist</li>
                     <li>Nome Playlist</li>
@@ -72,11 +76,18 @@
 
             <footer class="user">
 
-                <section class="install-app">
-
+                <section class="install-app flex">
+                    <img src="./img/download.svg" alt="download icon" class="download-icon">
+                    <label for="download-icon">
+                        Installa app
+                    </label>
                 </section>
-                <section class="user">
-
+                
+                <section class="user flex">
+                    <img src="./img/profile.svg" alt="user icon" class="user-icon">
+                    <label for="user-icon">
+                        John Boh
+                    </label>
                 </section>
 
             </footer>
