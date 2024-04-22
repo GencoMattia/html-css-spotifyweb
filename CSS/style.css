@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-html{
+body{
     font-family: "Montserrat", sans-serif;
 }
 
@@ -31,9 +31,11 @@ ul{
 
 /* Header */
 
-header{
+.container{
+    position: relative;
     background-color: black;
     color: white;
+    height: 100vh;
     width: 100px;
 }
 
@@ -42,6 +44,15 @@ header{
 }
 
 .navigation-icon{
+    width: 100%;
+}
+
+header footer{
+    position: absolute;
+    bottom: 0;
+}
+
+.user img{
     width: 100%;
 }
 
@@ -58,6 +69,18 @@ header{
     .full-display{
         display: none;
     }
+
+    .navigation-label{
+        display: none;
+    }
+
+    .playlist{
+        display: none;
+    }
+
+    /* .user label{
+        display: none;
+    } */
 }
 
 @media screen and (min-width: 577px) {
