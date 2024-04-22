@@ -11,9 +11,9 @@
     display: flex;
 }
 
-.flex-row{
+.flex-column{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .wrap{
