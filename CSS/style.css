@@ -128,6 +128,18 @@ footer{
     bottom: 0;
 }
 
+.playing-track{
+    width: 80%;
+}
+
+footer>section{
+    width: calc((100% - 3rem) / 3);
+}
+
+.track-img>img{
+    width: 100%;
+}
+
 
 
 
