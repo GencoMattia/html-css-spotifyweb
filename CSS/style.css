@@ -65,6 +65,7 @@ header{
 
 footer{
     height: 100px;
+    width: 100vw;
     background-color: #282828;
     position: sticky;
     bottom: 0;
