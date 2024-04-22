@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: "Montserrat", sans-serif;
+}
+
 /* General Classes */
 
 .flex{
@@ -21,9 +25,13 @@
     flex-wrap: wrap;
 }
 
+/* Header */
+
 header{
     background-color: black;
 }
+
+
 
 
 
