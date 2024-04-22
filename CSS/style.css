@@ -75,10 +75,13 @@ header{
 
 /* Main */
 
+main {
+    width: calc(100vw - 50px)
+}
+
 .upgrade{
     position: sticky;
     top: 0;
-    width: calc(100vw - 50px);
     background-color: #080b12;
     justify-content: flex-end;
     padding: 2rem .5rem;
@@ -88,7 +91,23 @@ header{
     width: calc(100% /4);
 }
 
+.track,
+.artist{
+    width: calc((100% - 2rem) / 2);
+}
 
+.track>img{
+    width: 100%;
+}
+
+.artist>img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+main h1{
+    width: 100%;
+}
 
 .upgrade>button{
     background-color: #080b12;
