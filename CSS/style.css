@@ -31,12 +31,17 @@ ul{
 
 /* Header */
 
+header{
+    
+}
+
 .container{
-    position: relative;
+    position: sticky;
+    top: 0;
     background-color: black;
     color: white;
-    height: 100vh;
-    width: 100px;
+    height: calc(100vh - 100px);
+    width: 50px;
 }
 
 .service-logo{
@@ -47,13 +52,22 @@ ul{
     width: 100%;
 }
 
-header footer{
+.user{
     position: absolute;
     bottom: 0;
 }
 
 .user img{
     width: 100%;
+}
+
+/* Footer */
+
+footer{
+    height: 100px;
+    background-color: #282828;
+    position: sticky;
+    bottom: 0;
 }
 
 
