@@ -63,6 +63,32 @@ ul{
 
 .playlist{
     display: none;
+    padding: 0 .7rem;
+}
+
+.playlist>h1 {
+    text-transform: uppercase;
+    font-size: .9rem;
+    padding: 1rem 0;
+}
+
+.playlist-add {
+    background-color: #0000;
+    color: white;
+    border: none;
+    width: 2rem;
+    height: 2rem;
+    font-size: 2rem;
+}
+
+.playlist-add>i {
+    width: 100%;
+    height: 100%;
+}
+
+.new-playlist {
+    align-items: center;
+    gap: .5rem;
 }
 
 .user label{
