@@ -204,6 +204,18 @@ footer{
     color: #858585;
 }
 
+.control-board {
+    justify-content: space-evenly;
+}
+
+#play-button {
+    width: 1.7rem;
+    height: 1.7rem;
+    border: white solid 3px;
+    border-radius: 50%;
+    padding: .7rem .7rem .7rem .8rem;
+}
+
 footer>section{
     width: calc((100% - 3rem) / 3);
 }
@@ -211,6 +223,10 @@ footer>section{
 .track-img>img{
     width: 100%;
     padding: 1rem 1rem 1rem 0;
+}
+
+.control-bar>ul {
+    gap: 1.5rem;
 }
 
 
