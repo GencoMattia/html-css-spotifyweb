@@ -143,8 +143,9 @@ ul{
 .user>hr {
     display: none;
     align-self: center;
-    width: 70%;
+    width: 95%;
     color: white;
+    opacity: .5;
 }
 
 .user-profile>img{
@@ -362,6 +363,7 @@ footer>section{
 
     .user {
         padding: 0 .7rem;
+        gap: .7rem;
     }
     
     .user label{
@@ -393,6 +395,10 @@ footer>section{
         font-size: .8rem;
         font-weight: bold;
     }
+    
+    .user>hr {
+        display: unset;
+    }
 
     .container{
         width: 200px;
@@ -408,7 +414,4 @@ footer>section{
         width: calc(100vw - 200px)
     }
 
-    .user>hr {
-
-    }
 }
