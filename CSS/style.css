@@ -291,7 +291,34 @@ footer>section{
 
 
 
-@media screen and (min-width: 577px) {
+@media screen and (min-width: 576px) {
+
+    .full-display{
+        display: unset;
+        padding: 1rem 0 1rem 1rem;
+    }
+
+    .full-display>img {
+        width: 65%;
+    }
+
+    .navigation-icon{
+        width: 15%;
+    }
+    
+    .navigation-label{
+        display: unset;
+        width: 85%;
+    }
+    
+    .playlist{
+        display: unset;
+    }
+    
+    .user label{
+        display: unset;
+    }
+
     .container{
         width: 200px;
     }
