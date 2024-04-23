@@ -57,6 +57,22 @@ ul{
     gap: .5rem;
 }
 
+.full-display{
+    display: none;
+}
+
+.navigation-label{
+    display: none;
+}
+
+.playlist{
+    display: none;
+}
+
+.user label{
+    display: none;
+}
+
 .service-logo{
     width: 100%;
     padding: 0 .5rem;
@@ -274,24 +290,6 @@ footer>section{
 
 
 
-
-@media screen and (max-width: 576px) {
-    .full-display{
-        display: none;
-    }
-
-    .navigation-label{
-        display: none;
-    }
-
-    .playlist{
-        display: none;
-    }
-
-    .user label{
-        display: none;
-    }
-}
 
 @media screen and (min-width: 577px) {
     .container{
