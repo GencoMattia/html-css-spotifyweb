@@ -45,7 +45,7 @@ ul{
 /* Header */
 
 .container{
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     background-color: black;
     height: calc(100vh - 100px);
@@ -99,7 +99,9 @@ ul{
 /* Main */
 
 main {
-    width: calc(100vw - 50px)
+    width: calc(100vw - 50px);
+    height: calc(100vh - 100px);
+    overflow-y: scroll
 }
 
 .upgrade{
@@ -151,7 +153,7 @@ footer{
     height: 100px;
     width: 100vw;
     background-color: #282828;
-    position: sticky;
+    /* position: sticky; */
     bottom: 0;
     justify-content: space-between;
 }
@@ -196,7 +198,7 @@ footer>section{
 }
 
 @media screen and (min-width: 577px) {
-    header{
+    .container{
         width: 200px;
     }
     .collapsed{
