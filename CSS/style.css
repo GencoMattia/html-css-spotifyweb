@@ -124,12 +124,15 @@ main {
     padding: 0 2rem;
 }
 
+.main-navigation>ul {
+    gap: 2rem;
+}
+
 .main-navigation li{
-    width: calc(100% / 4);
+    /* width: calc(100% / 4); */
     text-transform: uppercase;
     font-size: .8rem;
     font-weight: bold;
-
 }
 
 .articles-container>section {
