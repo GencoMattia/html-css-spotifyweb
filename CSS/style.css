@@ -247,6 +247,7 @@ footer{
 }
 
 .now-playing {
+    max-width: 300px;
     justify-content: flex-start;
 }
 
@@ -313,6 +314,7 @@ footer>section{
 }
 
 .options {
+    max-width: 300px;
     padding-right: .7rem;
     gap: .5rem;
 }
