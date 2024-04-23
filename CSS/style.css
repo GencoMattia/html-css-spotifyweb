@@ -46,6 +46,10 @@ ul{
     opacity: .5;
 }
 
+.dim-opacity:hover {
+    opacity: 1;
+}
+
 /* Header */
 
 .container{
@@ -117,6 +121,7 @@ ul{
 
 .navigation-label{
     display: none;
+    font-size: .7rem;
 }
 
 .user{
