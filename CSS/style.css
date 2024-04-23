@@ -229,8 +229,15 @@ footer>section{
     gap: 1.5rem;
 }
 
+.options {
+    padding-right: .7rem;
+    gap: .5rem;
+}
+
 .options>ul {
     gap: .5rem;
+    width: 40%;
+    font-size: .8rem;
 }
 
 .progress{
@@ -253,7 +260,7 @@ footer>section{
 
 .progress-bar {
     height: 4px;
-    width: 75%;
+    width: 100%;
     border-radius: 5px;
     background-color: #5a5a5a;
 }
