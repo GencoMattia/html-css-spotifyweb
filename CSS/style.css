@@ -332,6 +332,8 @@ footer>section{
 
 @media screen and (min-width: 576px) {
 
+        /* Header */
+
     .full-display{
         display: unset;
         padding: 1rem 0 1rem 1rem;
@@ -357,9 +359,39 @@ footer>section{
     .playlist{
         display: unset;
     }
+
+    .user {
+        padding: 0 .7rem;
+    }
     
     .user label{
         display: unset;
+    }
+
+    .install-app {
+        gap: .5rem;
+    }
+
+    .install-app>.download-icon {
+        padding: 0 .15rem 0 0;
+        margin-right: 0;
+        width: 10%;
+    }
+
+    .install-app>label {
+        align-self: center;
+        font-size: .6rem;
+        font-weight: bold;
+    }
+
+    .user-profile {
+        justify-content: flex-start;
+        gap: .5rem;
+    }
+
+    .user-profile>label {
+        font-size: .8rem;
+        font-weight: bold;
     }
 
     .container{
@@ -368,6 +400,9 @@ footer>section{
     .collapsed{
         display: none;
     }
+
+
+            /* Main */
 
     main {
         width: calc(100vw - 200px)
