@@ -246,18 +246,26 @@ footer{
     justify-content: space-between;
 }
 
+.now-playing {
+    justify-content: flex-start;
+}
+
 footer>section{
     width: calc((100% - 3rem) / 3);
 }
 
 .playing-track{
-    width: 80%;
+    width: 85%;
+    max-width: 175px;
     padding: 1rem 1rem 1rem .5rem;
     gap: .5rem;
 }
 
 .save-track {
-    width: 20%;
+    width: 15%;
+    max-width: 46px;
+    gap: .3rem;
+    justify-content: space-between;
 }
 
 .track-img {
