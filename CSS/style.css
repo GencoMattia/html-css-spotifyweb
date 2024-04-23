@@ -72,10 +72,9 @@ header{
 }
 
 .user{
-    /* position: absolute; */
     margin-top: auto;
     bottom: 0;
-    gap: .5rem;
+    gap: 1.5rem;
 }
 
 .download-icon {
@@ -88,6 +87,7 @@ header{
 }
 
 .user>hr {
+    display: none;
     align-self: center;
     width: 70%;
     color: white;
@@ -96,8 +96,8 @@ header{
 .user-profile>img{
     border-radius: 100%;
     background-color: gray;
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 /* Main */
@@ -205,5 +205,9 @@ footer>section{
     }
     .collapsed{
         display: none;
+    }
+
+    .user>hr {
+
     }
 }
