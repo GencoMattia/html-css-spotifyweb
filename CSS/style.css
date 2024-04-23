@@ -61,10 +61,6 @@ ul{
     display: none;
 }
 
-.navigation-label{
-    display: none;
-}
-
 .playlist{
     display: none;
 }
@@ -84,6 +80,10 @@ ul{
 
 .navigation-icon{
     width: 100%;
+}
+
+.navigation-label{
+    display: none;
 }
 
 .user{
@@ -302,13 +302,17 @@ footer>section{
         width: 65%;
     }
 
+    .navigation {
+        gap: .5rem;
+    }
+
     .navigation-icon{
         width: 15%;
     }
     
     .navigation-label{
         display: unset;
-        width: 85%;
+        width: calc((100% - .5rem) - 15%);
     }
     
     .playlist{
