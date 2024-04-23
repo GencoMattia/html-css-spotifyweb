@@ -122,6 +122,7 @@ ul{
 .navigation-label{
     display: none;
     font-size: .7rem;
+    font-weight: bold;
 }
 
 .user{
