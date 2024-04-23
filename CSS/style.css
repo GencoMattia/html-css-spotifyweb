@@ -279,6 +279,7 @@ footer>section{
 .track-info>ul>li:first-child {
     font-size: .9rem;
     font-weight: bold;
+    width: 100%;
 }
 
 .track-info>ul>li:not(:first-child) {
