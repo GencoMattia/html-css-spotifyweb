@@ -190,6 +190,18 @@ footer{
 
 .playing-track{
     width: 80%;
+    padding: 2rem 2rem 2rem 0;
+}
+
+.track-info>ul>li:first-child {
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.track-info>ul>li:not(:first-child) {
+    font-size: .75rem;
+    font-weight: bold;
+    color: #858585;
 }
 
 footer>section{
@@ -198,6 +210,7 @@ footer>section{
 
 .track-img>img{
     width: 100%;
+    padding: 1rem 1rem 1rem 0;
 }
 
 
