@@ -81,6 +81,7 @@ ul{
 .playlist {
     display: none;
     padding: 0 .7rem;
+    overflow: auto;
 }
 
 .playlist>h1 {
@@ -108,6 +109,10 @@ ul{
     gap: .5rem;
     margin-bottom: 1rem;
     font-size: .9rem;
+}
+
+.playlist-list {
+    overflow: auto;
 }
 
 .playlist-list>li {
@@ -273,10 +278,8 @@ main {
     color: white;
 }
 
-track > img {
-}
-
 .track img{
+    display: inline-block;
     position: relative;
     width: 100%;
 }
@@ -385,9 +388,8 @@ footer>section{
 }
 
 #play-button:hover {
-    width: 2rem;
-    height: 2rem;
-}
+    scale: 1.2;
+} 
 
 .control-bar {
     height: 35px;
