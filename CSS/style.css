@@ -337,8 +337,19 @@ footer>section{
     padding: .7rem .7rem .7rem .8rem;
 }
 
+#play-button:hover {
+    width: 2rem;
+    height: 2rem;
+}
+
+.control-bar {
+    height: 35px;
+}
+
 .control-bar>ul {
-    gap: 1.5rem;
+    max-width: 185px;
+    gap: 1rem;
+    justify-content: space-between;
 }
 
 .options {
@@ -365,18 +376,41 @@ footer>section{
 }
 
 .progress-point{
+    justify-content: flex-end;
+    position: relative;
     height: 100%;
     width: 30%;
     background-color: white;
     border-radius: 5px;
+    transition: all .2s;
 }
 
 .progress-bar {
+    position: relative;
     height: 4px;
     width: 100%;
     border-radius: 5px;
     background-color: #5a5a5a;
 }
+
+.progress-circle {
+    display: none;
+    width: 13px;
+    height: 13px;
+    background-color: white;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.progress-bar:hover .progress-point {
+    background-color: #cbff31;
+}
+
+.progress-bar:hover .progress-point>.progress-circle{
+    display: unset;
+}
+
+
 
 
 
