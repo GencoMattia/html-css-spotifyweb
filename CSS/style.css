@@ -191,7 +191,7 @@ main {
 }
 
 .articles-container>section {
-    justify-content: space-between;
+    gap: 1rem;
 }
 
 .track,
@@ -314,7 +314,7 @@ footer>section{
 }
 
 .options {
-    max-width: 300px;
+    max-width: 250px;
     padding-right: .7rem;
     gap: .5rem;
 }
@@ -442,4 +442,17 @@ footer>section{
         width: calc(100vw - 200px)
     }
 
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .articles-container>section {
+        gap: .7rem;
+    }
+
+    .track,
+    .artist{
+        width: calc((100% - 2.5rem) / 4);
+    }
 }
