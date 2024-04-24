@@ -195,6 +195,7 @@ main {
 .upgrade{
     height: 85px;
     position: sticky;
+    z-index: 2;
     top: 0;
     background-color: #080b12;
     justify-content: flex-end;
@@ -213,9 +214,7 @@ main {
 }
 
 .upgrade>button:hover{
-    padding: .8rem 2.5rem;
-    font-weight: bold;
-    font-size: .9rem;
+    scale: 1.1;
 }
 
 .main-navigation {
@@ -245,6 +244,7 @@ main {
 .artist{
     width: calc((100% - 1rem) / 2);
     text-align: center;
+    transition: all .3s;
 }
 
 .track>h2,
@@ -279,21 +279,10 @@ main {
 }
 
 .track img{
-    display: inline-block;
+    display: block;
     position: relative;
     width: 100%;
 }
-
-/* .img-overlay {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    font-size: 3rem;
-    color: white;
-} */
 
 .img-overlay>.overlay-icon {
     opacity: 1;
@@ -317,6 +306,8 @@ main h1{
 /* Footer */
 
 footer{
+    position: relative;
+    z-index: 2;
     height: 100px;
     width: 100vw;
     background-color: #282828;
