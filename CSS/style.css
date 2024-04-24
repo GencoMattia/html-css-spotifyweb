@@ -188,11 +188,29 @@ main {
 }
 
 .upgrade{
+    height: 85px;
     position: sticky;
     top: 0;
     background-color: #080b12;
     justify-content: flex-end;
-    padding: 1.5rem .5rem;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.upgrade>button{
+    background-color: #080b12;
+    text-transform: uppercase;
+    border: white solid 1px;
+    padding: .7rem 2.5rem;
+    border-radius: 3rem;
+    font-weight: bold;
+    transition: all .3s;
+}
+
+.upgrade>button:hover{
+    padding: .8rem 2.5rem;
+    font-weight: bold;
+    font-size: .9rem;
 }
 
 .main-navigation {
@@ -235,9 +253,47 @@ main {
     color: #7d7f84;
 }
 
-.track>img{
+.track figure {
+    position: relative;
+}
+
+.track figure:hover::after {
+    font-family: "FontAwesome";
+    content: "\f144";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 3rem;
+    color: white;
+}
+
+track > img {
+}
+
+.track img{
+    position: relative;
     width: 100%;
-    margin-bottom: 1rem;
+}
+
+/* .img-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 3rem;
+    color: white;
+} */
+
+.img-overlay>.overlay-icon {
+    opacity: 1;
 }
 
 .artist>img{
@@ -253,15 +309,6 @@ main h1{
 
 .created-for-user {
     padding-bottom: 1rem;
-}
-
-.upgrade>button{
-    background-color: #080b12;
-    text-transform: uppercase;
-    border: white solid 1px;
-    padding: .7rem 2.5rem;
-    border-radius: 20px;
-    font-weight: bold;
 }
 
 /* Footer */
