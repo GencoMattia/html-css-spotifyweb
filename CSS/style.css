@@ -202,7 +202,7 @@ main {
 
 .track>h2,
 .artist>h2 {
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 .track>h3 {
@@ -224,7 +224,11 @@ main {
 
 main h1{
     width: 100%;
-    padding: 2rem 0;
+    padding: 1rem 0 .7rem;
+}
+
+.created-for-user {
+    padding-bottom: 1rem;
 }
 
 .upgrade>button{
@@ -454,5 +458,23 @@ footer>section{
     .track,
     .artist{
         width: calc((100% - 2.5rem) / 4);
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+
+    .articles-container>section {
+        gap: .7rem;
+    }
+
+    .track,
+    .artist{
+        width: calc((100% - 3.5rem) / 6);
+    }
+
+    .track>h2,
+    .artist>h2 {
+        font-size: .8rem;
     }
 }
