@@ -13,6 +13,11 @@ ul{
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 /* General Classes */
 
 .flex{
@@ -247,12 +252,12 @@ main {
     transition: all .3s;
 }
 
-.track>h2,
-.artist>h2 {
+.track h2,
+.artist h2 {
     font-size: .8rem;
 }
 
-.track>h3 {
+.track h3 {
     font-size: .75rem;
     margin: .5rem 0 1rem;
     color: #7d7f84;
@@ -260,6 +265,7 @@ main {
 
 .track figure {
     position: relative;
+    margin-bottom: 1rem;
 }
 
 .track figure:hover::after {
@@ -284,11 +290,7 @@ main {
     width: 100%;
 }
 
-.img-overlay>.overlay-icon {
-    opacity: 1;
-}
-
-.artist>img{
+.artist img{
     width: 100%;
     border-radius: 50%;
     margin-bottom: 1rem;
